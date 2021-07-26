@@ -1,0 +1,141 @@
+/* Scrollbar Page */
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-track-piece{
+    background-color: #242323;
+}
+
+::-webkit-scrollbar-thumb{
+    height: 20px;
+    background-color: #0b6a77;
+}
+
+
+/* ==================================================
+Site Header
+=================================================== */
+
+.header {
+    position: fixed;
+    width: 285px;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+    background-color: #191919;
+}
+
+.header-content {
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.profile-picture-block {
+    margin-top: 30px;
+    position: relative;
+    background-color: #191919;
+    height: 100px;
+}
+
+
+.my-photo{
+    width: 35.5%;
+    height: 100%;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -25px;
+    left:30%;
+    padding: 8px;
+    background-color: #101010;
+}
+
+.my-photo img{
+    border-radius: 100%;
+}
+
+.site-title-block {
+    position: relative;
+    margin: 50px 0px 10px;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 21px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.site-para {
+    color: rgb(109, 105, 105);
+}
+
+/* Main menu */
+.site-nav {
+    padding: 25px 0 40px;
+    width: 100%;
+}
+.header-main-menu {
+    padding: 0;
+    margin: 0;
+}
+
+.header-main-menu li {
+    padding-left: 30px;
+}
+
+.header-main-menu li a {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.85em;
+    color: rgba(218, 218, 218, 0.8);
+    letter-spacing: 0px;
+    display: block;
+    position: relative;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px 0 0 30px;
+    margin-bottom: 8px;
+}
+
+.header-main-menu li a i {
+    background-color: #11d6f0;
+    color: rgb(0, 0, 0);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+
+.header-main-menu li a:hover{
+    background-color: #363535;
+    color: white;
+}
+
+.header .copyrights {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 10px 15px;
+    line-height: 14px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+    color: #888;
+}
+
+/* Mobile menu */
+.responsive-header{
+    display: none;
+}
