@@ -19,12 +19,12 @@
     </head>
     <body>
         <div class="weapper-page">
-            <!-- Header -->
+            <!-- nav menu -->
             <header class="header">
                 <div class="header-content">
                     <div class="profile-picture-block">
                         <div class="my-photo">
-                            <img src="images/profile.jpg" alt="Image" class="img-fluid">
+                            <img src="images/profile.jpg" alt="Image" >
                         </div>
                     </div>
 
@@ -41,7 +41,7 @@
                             <li><a  href="#home"><i class="fas fa-home"></i> Home</a></li>
                             <li><a href="#about-me"><i class="fas fa-user-tie"></i> About Me</a></li>
                             <li><a href="#skill"><i class="fas fa-tools"></i> Skills</a></li>
-                            <li><a href="#experience"><i class="fas fa-business-time"></i> Experience</a></li>
+                            <li><a href="#project"><i class="fas fa-business-time"></i> Projects</a></li>
                             <li><a href="#education"><i class="fas fa-book-reader"></i> Education</a></li>
                             <li><a href="#achievement"><i class="fas fa-trophy"></i> Achievements</a></li>
                             <li><a href="#contact"><i class="fas fa-paper-plane"></i> Contact</a></li>
@@ -53,6 +53,18 @@
                     <!-- /Navigation -->
                 </div>
             </header>
+
+            <!-- Mobile Header -->
+            <div class="responsive-header">
+                <div class="responsive-header-name">
+                    <img class="responsive-logo" src="images/profile.jpg" alt="" />
+                    Manish Kumar
+                </div> 
+                <span class="responsive-icon" id="menu-tab"><i class="fas fa-bars"></i></span>
+            </div>
+            <!-- /Mobile Header -->
+
+
             
             <!-- Main Content Pages -->
             <div class="content-pages">
@@ -67,36 +79,272 @@
                             <a class="btn btn-primary " href="#contact" role="button"><i class="far fa-envelope"></i>Contact Me</a>
                             <a class="btn btn-primary " href="#contact" role="button"><i class="fas fa-briefcase"></i>Hire Me</a>
                         </div>
-                        <div class="down-arrow bounce">
-                            <a class="fas fa-angle-double-down" href="#about-me"></a>
-                        </div>
-                    
+                        
                     </section>
 
                     <!-- About Me -->
                     <section id="about-me">
-                        <div class="section-title">
-                            <div class="main-title">
-                                <h4>About Me</h4>
-                                
+                        <div class="section-row">
+                            <div class="section-title">
+                                <div class="title-main-page">
+                                    <div class="main-title">
+                                        <h4>About Me</h4>
+                                        <p>You get what you give</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section-main-content">
+                                <div class="section-content">
+                                    <h3 cl>Manish Kumar</h3>
+                                    <span class="about-location"><i class="fas fa-map-marker-alt"></i>Bihar, India</span>
+                                    <p class="about-content">
+                                        I am manish kumar, I belong to Bihar and I am a final year undergraduate pursuing electrical engineering from Tezpur University Assam with an overall CGPA of 7.29, I am a hard-working and quick learner. I have developed an interest in programming also I have been taught c,c++, and java.
+                                    </p>
+                                    <p class="about-content">
+                                        I would also like to solve real-world problems like currently, I am working on a low-cost portable ventilator that can be used in a pandemic situation like covid-19.
+                                    </p>
+                                </div>
+
+                                <div class="box-img">
+                                    <img src="images/about.png" class="img-fluid" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </section>
+
+                    <!-- Skills -->
+                    <section id="skill">
+                        <div class="section-row">
+                            <div class="section-title">
+                                <div class="title-main-page">
+                                    <div class="main-title color-white">
+                                        <h4>Skills</h4>
+                                        <p>You get what you give</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section-main-content">
+                                <div class="special-block-bg">
+                                    <div class="skills-display">
+                                        <div class="skill-item">
+                                            <div class="skill-name">
+                                                <span>HTML</span>
+                                                <span>55%</span>
+                                            </div>
+                                            <div class="skill-progress">
+                                                <div class="fifty-percent mb-blue">
+                                                    <!-- HTML -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <div class="skill-name">
+                                                <span>CSS</span>
+                                                <span>55%</span>
+                                            </div>
+                                            <div class="skill-progress">
+                                                <div class="fifty-percent mb-blue">
+                                                    <!-- CSS -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <div class="skill-name">
+                                                <span>JavaScript</span>
+                                                <span>55%</span>
+                                            </div>
+                                            <div class="skill-progress">
+                                                <div class="fifty-percent mb-blue">
+                                                    <!-- JavaScript -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <div class="skill-name">
+                                                <span>Java</span>
+                                                <span>55%</span>
+                                            </div>
+                                            <div class="skill-progress">
+                                                <div class="fifty-percent mb-blue">
+                                                    <!-- Java -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <div class="skill-name">
+                                                <span>C++</span>
+                                                <span>55%</span>
+                                            </div>
+                                            <div class="skill-progress">
+                                                <div class="fifty-percent mb-blue">
+                                                    <!-- C++ -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <div class="skill-name">
+                                                <span>ReactJS</span>
+                                                <span>55%</span>
+                                            </div>
+                                            <div class="skill-progress">
+                                                <div class="fifty-percent mb-blue">
+                                                    <!-- ReactJS -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <div class="skill-name">
+                                                <span>NodeJS</span>
+                                                <span>55%</span>
+                                            </div>
+                                            <div class="skill-progress">
+                                                <div class="fifty-percent mb-blue">
+                                                    <!-- NodeJS -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <div class="skill-name">
+                                                <span>MongoDB</span>
+                                                <span>55%</span>
+                                            </div>
+                                            <div class="skill-progress">
+                                                <div class="fifty-percent mb-blue">
+                                                    <!-- MongoDB -->
+                                                </div>
+                                            </div>
+                                        </div>
+                        
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </section>
 
-                    <!-- Skills -->
-                    <section id="skill"></section>
-
-                    <!-- experience -->
-                    <section id="experience"></section>
+                    <!-- project -->
+                    <section id="project">
+                        <div class="section-row">
+                            <div class="section-title">
+                                <div class="title-main-page">
+                                    <div class="main-title color-white">
+                                        <h4>Project</h4>
+                                        <p>sample of my work</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="section-main-content">
+                                <div class="project-box">
+                                    <div class="project-1 ele">
+                                        
+                                    </div>
+                                    <div class="project-2 ele">
+                                        
+                                    </div>
+                                    <div class="project-3 ele">
+                                        
+                                    </div>
+                                    <div class="project-4 ele">
+                                        
+                                    </div>
+                                    <div class="project-5 ele">
+                                        
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </section>
 
                     <!-- education -->
-                    <section id="education"></section>
+                    <section id="education">
+                        <div class="section-row">
+                            <div class="section-title">
+                                <div class="title-main-page">
+                                    <div class="main-title color-white">
+                                        <h4>Eduvation</h4>
+                                        <p>sample of my work</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                     
                     <!-- achievement -->
-                    <section id="achievement"></section>
+                    <section id="achievement">
+                        <div class="section-row">
+                            <div class="section-title">
+                                <div class="title-main-page">
+                                    <div class="main-title color-white">
+                                        <h4>achievement</h4>
+                                        <p>sample of my work</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="section-main-content">
+                                
+                            </div> -->
+                        </div>
+                    </section>
 
                     <!-- contact -->
-                    <section id="contact"></section>
+                    <section id="contact">
+                        <div class="section-row">
+                            <div class="section-title">
+                                <div class="title-main-page">
+                                    <div class="main-title color-white">
+                                        <h4>Contact Me</h4>
+                                        <p>need some help?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="section-main-content">
+                                <div id="contact-container">
+
+                                    <div id="contact-form-container">
+                                        <form id="contact-form">
+                                            <input id="input-name" name="name" type="text" placeholder="Your Name">
+                                            <input id="input-email" name="input-email" type="text" required placeholder="Your Email">
+                                            <textarea id="input-message" name="input-message" rows="2" cols=40 placeholder="Message"></textarea>
+                                            <button class="sub-btn" type="submit">SEND MESSAGE</button>
+                                        </form>
+                                    </div>
+                                    <div id="my-details-container">
+                                        <h3> Contact Information </h3>
+                                        <div class="my-details-info-container">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <span>Bihar, India</span>
+                                        </div>
+                                        <div class="my-details-info-container">
+                                            <i class="fas fa-mobile-alt"></i>
+                                            <span>+919470226540</span>
+                                        </div>
+                                        <div class="my-details-info-container">
+                                            <i class="far fa-envelope"></i>
+                                            <span>krmanish2101@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="special-block-bg">
+                                    <div class="social-icon">
+                                        <h4>Follow me:</h4>
+                                        <ul class="social-media-link">
+                                            <li><a href="https://www.linkedin.com/in/gomanish/" target="_blank" ><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="https://github.com/gomanish" target="_blank"><i class="fab fa-github"></i></a></li>
+                                            <li><a href="https://www.facebook.com/krmanish2101/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="https://twitter.com/krmanish98" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://www.behance.net/gomanish/" target="_blank"><i class="fab fa-behance"></i></a></li>
+                                            <li><a href="https://www.instagram.com/gomanish21/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="https://in.pinterest.com/gomanish21/" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div> -->
+                
+                        </div>
+                    </section>
                 </div>
             </div>
             <!-- /Main Content -->
@@ -106,6 +354,7 @@
 
 
 
+        <script src="js/app.js"></script>
 
         <!-- Script file -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
