@@ -489,28 +489,37 @@ Skill Section
 }
 
 .project-data{
-    color: white;
+    color: #11d6f0;
     position: absolute;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgb(0,0,0);
     bottom: 0px;
-    width: 100%;
-    transition: all 0.7s ease-out;
-    transform: translateY(100%);
+    right: 0px;
+    width: 50%;
+    transition: 0.5s ease-out;
+    /* transform: translateY(100%); */
     text-align: center;
+    padding: 2%;
+    margin: 2%;
 }
 .project-img{
     transition: all 0.7s ease-out;
 }
 .ele:hover .project-data{
-    transform: translateY(0);
+    width: 96%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .ele:hover .project-img{
-    transform: scale(1.15);
+    transform: scale(1.05);
 }
 
-.project-data h4 span{
-    color: white;
+.project-attr{
+    display: none;
 }
+.ele:hover .project-attr{
+    display: block;   
+}
+
 .project-attr a{
     text-decoration: none;
     font-size: 1.5rem;
