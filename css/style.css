@@ -325,7 +325,7 @@ Sections
 
 
 .section-content h3{
-    color: white;
+    color: whitesmoke;
     font-weight: 600;
     font-size: 1.5rem;
 }
@@ -424,7 +424,7 @@ Skill Section
 
 .skill-name span{
     display: inline;
-    color: white;
+    color: lightgray;
     
 }
 .skill-name {
@@ -462,7 +462,7 @@ Skill Section
 /* Project */
 #project{
     width: 100%;
-    min-height: 100vh;
+    height: auto;
     background-color: black;
 }
 
@@ -535,9 +535,84 @@ Skill Section
 /* Education */
 #education{
     width: 100%;
-    min-height: 100vh;
+    height: auto;
     background-color: #171717;
 }
+.timeline{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-color: #098a9e; */
+}
+.timeline-box{
+    width: 44%;
+    height: auto;
+    position: relative;
+    /* border: 2px solid white; */
+    text-align: right;
+    
+}
+.timeline-box h4{
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.timeline-box h5{
+    color: gray;
+    font-weight: 200;
+    font-size: 1rem;
+}
+.timeline-box h6{
+    color: gray;
+    font-weight: 100;
+    font-size: 1rem;
+}
+.timeline-box span{
+    color: gray;
+    width: auto;
+    text-align: right;
+}
+
+.timeline-box:nth-child(2n){
+    left: 56%;
+    text-align: left;
+}
+
+.timeline-divider{
+    position: absolute;
+    height: 68%;
+    width: 0px;
+    border-left: 1px dashed #11d6f0;
+    top: 16%;
+    left: 50%;
+}
+.timeline-traveller{
+    position: sticky;
+    top: 32%;
+    margin: -15px;
+}
+.timeline-traveller i{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    transform: rotate(90deg);
+}
+.timeline-box::after{
+    content: "\f5da";
+    font: normal normal normal 30px FontAwesome;
+    position: absolute;
+    top: 46% ;
+    border-radius: 50%;
+    width: 1.1rem;
+    height: 1.1rem;
+    right: -14.5%;
+    color: #11d6f0;
+}
+.timeline-box:nth-child(2n)::after{
+    left: -17%;
+}
+
+
 
 
 /* achievements */
@@ -546,6 +621,22 @@ Skill Section
     min-height: 100vh;
     background-color: black;
 }
+.dark{
+    background-color: #171717;
+}
+
+.achievement-content{
+    padding: 2% 5%;
+    color: gray;
+}
+.achievement-content h5{
+    color: whitesmoke;
+}
+.achievement-para{
+    padding-left: 20px;
+}
+
+
 
 
 /* Contacts */
@@ -555,7 +646,39 @@ Skill Section
     background-color: #171717;
 }
 
+.social-icon h4, .social-icon ul{
+    display: inline-block;
+    margin-bottom: 0;
+}
 
+.social-icon h4 {
+    margin-left: 25px;
+    margin-right: 10px;
+    color: white;
+}
+
+.social-media-link li, .social-media-link a{
+    display: inline-block;
+}
+
+.social-icon a {
+    font-size: 16px;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: black;
+    background: #11d6f0;
+    border-radius: 100%;
+    margin-right: 15px;
+    transition: all 0.5s;
+}
+
+.social-icon a:hover{
+    color: cyan;
+    background: #211e1e;
+    transform: scale(1.1);
+}
 
 
 
