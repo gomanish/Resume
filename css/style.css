@@ -446,10 +446,21 @@ Skill Section
     height: inherit;
     width: 80%;
 }
-
-.fifty-percent {
+.fifty-five-percent{
     height: inherit;
-    width: 50%;
+    width: 55%;
+}
+.five-percent{
+    height: inherit;
+    width: 5%;
+}
+.ten-percent{
+    height: inherit;
+    width: 10%;
+}
+.sixty-percent {
+    height: inherit;
+    width: 70%;
 }
 /* setting background-color */
 
@@ -678,6 +689,15 @@ Skill Section
     color: cyan;
     background: #211e1e;
     transform: scale(1.1);
+}
+
+.icon-block{
+    margin: 5%;
+    width: 100%;
+}
+
+#contact-container{
+    width: 100%;
 }
 
 
