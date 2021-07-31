@@ -682,7 +682,7 @@ Skill Section
     background: #11d6f0;
     border-radius: 100%;
     margin-right: 15px;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 .social-icon a:hover{
@@ -696,14 +696,57 @@ Skill Section
     width: 100%;
 }
 
-#contact-container{
+.contact-container{
     width: 100%;
+    display: block;
+}
+.col-wise{
+    flex-direction: column;
 }
 
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.contact-form-container{
+    width: 48%;
+    /* background-color: #098a9e; */
 
+}
+.contact-form input,textarea{
+    display: block;
+    width: 100%;
+    padding: 2%;
+    margin: 2% 0%;
+    background:transparent;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px ;
+}
+.sub-btn{
+    display: block;
+    width: 100%;
+    background-color: #098a9e;
+    margin-top: 20px;
+}
+.my-details-container{
+    width: 48%;
+    color: darkgray;
+    padding-left: 7%;
+    /* background-color: #11d6f0; */
+}
+.my-details-container h3{
+    color: whitesmoke;
+}
+.my-details-info-container{
+    margin-top: 10px;
+}
+.my-details-info-container i{
+    margin-right: 10px;
+}
 
-
-/* for tabelet */
+/* for tab */
 .responsive-header{
     display: none;
 }
@@ -721,7 +764,7 @@ Skill Section
         transition: 0.4s;
     }
     .header .copyrights {
-        bottom: 10px;
+        bottom: 5px;
         position: relative;
     }
     .title-block h2{
@@ -772,12 +815,32 @@ Skill Section
     .responsive-nav{
         left: 0vh;
     }
+    .timeline-box:nth-child(2n)::after{
+        left: -18%;
+    }
 
 }
 
 /* for mobile phone */
 
 @media only screen and (max-width: 767px){
+    .home-button a{
+        margin-bottom: 10px;
+    }
+    .timeline-divider{
+        display: none;
+    }
+    .timeline-box{
+        text-align: left;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+    .timeline-box:nth-child(2n){
+        left: 0;
+    }
+    .timeline-box::after{
+        display: none;
+    }
     .section-main-content{
         flex-direction: column;
     }
@@ -814,5 +877,18 @@ Skill Section
     .ele img{
         height: 200px;
         width: 100%;
+    }
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-form-container{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .my-details-container{
+        width: 100%;
+    }
+    .social-media-link li{
+        padding-bottom: 20px;
     }
 }
