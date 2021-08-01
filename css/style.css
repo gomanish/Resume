@@ -629,7 +629,7 @@ Skill Section
 /* achievements */
 #achievement{
     width: 100%;
-    min-height: 100vh;
+    height: auto;
     background-color: black;
 }
 .dark{
@@ -653,7 +653,7 @@ Skill Section
 /* Contacts */
 #contact{
     width: 100%;
-    min-height: 100vh;
+    height: auto;
     background-color: #171717;
 }
 
