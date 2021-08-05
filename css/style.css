@@ -30,7 +30,7 @@ body{
     position: fixed;
     width: 100%;
     height: 100%;
-    background-image: url('../images/mouse.jpg');
+    background-image: url('../images/mouse-3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
@@ -449,6 +449,10 @@ Skill Section
 .fifty-five-percent{
     height: inherit;
     width: 55%;
+}
+.seventy-five-percent{
+    height: inherit;
+    width: 75%;
 }
 .five-percent{
     height: inherit;
